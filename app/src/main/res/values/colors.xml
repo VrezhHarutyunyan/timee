@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#1976D3</color>
+    <color name="label">#CCE4F7</color>
+    <color name="colorWhite">#FCFDF7</color>
+    <color name="colorApp">#1976D3</color>
+    <color name="dateText">#1c97f9</color>
+    <color name="dark">#000</color>
+    <color name="deleted_contact_background">#2e2e2e</color>
+</resources>

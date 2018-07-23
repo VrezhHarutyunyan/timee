@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_item">
+        <item>Փոխել լեզուն</item>
+        <item>Փոխել տառի չափը</item>
+        <item>Փոխել տառի և ֆոնի գույնը</item>
+        <item>Ներբեռնման կարգավորումները</item>
+        <item>Զրոյացնել կարգավորումները</item>
+    </string-array>
+
+    <string-array name="f_a_q_item">
+        <item>հարց 1</item>
+        <item>հարց 2</item>
+        <item>հարց 3</item>
+        <item>հարց 4</item>
+        <item>հարց 5</item>
+        <item>հարց 6</item>
+        <item>հարց 7</item>
+        <item>հարց 8</item>
+        <item>հարց 9</item>
+    </string-array>
+
+    <string-array name="language">
+
+        <item>Հայերեն</item>
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="character">
+        <item>Փոքր</item>
+        <item>ՄԻջին</item>
+        <item>Մեծ</item>
+    </string-array>
+
+    <string-array name="download_settings">
+        <item>Ներբեռնել նյութերը միայն Wi-Fi միացման ժամանակ</item>
+        <item>Ներբեռնել նյութերը բջջային ինտերնետի միացման ժամանակ</item>
+    </string-array>
+
+
+
+</resources>

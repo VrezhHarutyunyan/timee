@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+   >
+
+    <EditText
+        android:textCursorDrawable="@color/dark"
+        android:cursorVisible="false"
+        android:gravity="top"
+        android:id="@+id/textViewDialog"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:background="@drawable/shape_edit_text"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

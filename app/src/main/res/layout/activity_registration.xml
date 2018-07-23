@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/linerImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/colorApp"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:background="@mipmap/ic_register" />
+        </LinearLayout>
+
+<android.support.v7.widget.LinearLayoutCompat
+    android:paddingTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/colorApp"
+        android:text="@string/register"
+        />
+</android.support.v7.widget.LinearLayoutCompat>
+
+<LinearLayout
+    android:paddingTop="10dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/content_register"
+            android:textColor="#000"
+            android:textSize="15dp"
+            />
+</LinearLayout>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content2_register"
+            android:textColor="#000"
+            android:textSize="15dp"/>
+<LinearLayout
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorApp"
+
+        >
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:hint="@string/name"
+        android:textSize="15dp"
+        android:background="@drawable/my_edittext"
+        android:paddingBottom="2dp"
+        android:textColorHint="@color/colorApp"
+        android:textColor="@color/colorApp"
+        android:id="@+id/editTextName"
+        android:singleLine="true"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorApp"
+                >
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/surname"
+                    android:textSize="15dp"
+                    android:background="@drawable/my_edittext"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="2dp"
+                    android:textColorHint="@color/colorApp"
+                    android:textColor="@color/colorApp"
+                    android:id="@+id/editTextSurName"
+                    android:singleLine="true"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorApp">
+            <EditText
+                android:textSize="15dp"
+                android:layout_width="300dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="2dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:background="@drawable/my_edittext"
+                android:textColorHint="@color/colorApp"
+                android:textColor="@color/colorApp"
+
+                android:id="@+id/editTextPhone"
+                android:singleLine="true"
+                />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="25dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/textRegister"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:background="@drawable/my_button"
+                android:textColor="@color/label"
+                android:text="@string/confirm"
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
