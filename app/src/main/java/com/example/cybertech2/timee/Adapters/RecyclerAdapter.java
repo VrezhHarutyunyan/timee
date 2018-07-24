@@ -35,6 +35,16 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ImageV
         int images_id = images[position];
         holder.imageButton.setImageResource(images_id);
         holder.textView.setText("image" + position);
+        holder.imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context context = v.getContext();
+                Intent intent = new Intent(context, ArticleActivity.class);
+//                intent.putExtra(Title, superHero.getName());
+//                intent.putExtra("URL", superHero.getImageUrl());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -54,14 +64,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ImageV
         }
         public ImageViewHolder(LayoutInflater inflater, ViewGroup parent) {
             super(inflater.inflate(R.layout.album_layout, parent, false));
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Context context = v.getContext();
-                    Intent intent = new Intent(context, ArticleActivity.class);
-                    context.startActivity(intent);
-                }
-            });
+//            itemView.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Context context = v.getContext();
+//                    Intent intent = new Intent(context, ArticleActivity.class);
+//                    context.startActivity(intent);
+//                }
+//            });
         }
     }
 

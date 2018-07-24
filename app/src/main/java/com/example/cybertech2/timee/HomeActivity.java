@@ -27,7 +27,6 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.cybertech2.timee.Adapters.PagerAdapter;
 import com.example.cybertech2.timee.Adapters.RecyclerAdapter;
 
