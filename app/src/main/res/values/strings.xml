@@ -30,6 +30,7 @@
     <string name="all_fragment">Բոլորը</string>
     <string name="human_fragment">Մարդը</string>
     <string name="unknown_fragment">Անհայտ</string>
+    <string name="facebook_app_id">275785176345144</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
