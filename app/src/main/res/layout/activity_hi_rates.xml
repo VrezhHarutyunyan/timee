@@ -23,6 +23,7 @@
             >
 
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ամենաընթերցվածները"
@@ -39,7 +40,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Դուք չունեք ոչ մի ակտիվ գործողություն 'Ամենաընթերցվածները' էջի համար"
         android:layout_centerInParent="true"
         android:layout_gravity="center_vertical"
         android:gravity="center" />
